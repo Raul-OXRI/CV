@@ -10,12 +10,6 @@ body{
     background-color: #fff59d;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    max-width: 992px;
-    margin: 0;
-}
 .header{
     background-color: #1b3039;
     display: flex;
@@ -23,10 +17,6 @@ body{
     align-items: center;
     height: 85px;
     padding: 5px 10%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
 }
 
 .header .logo{
@@ -45,7 +35,6 @@ body{
 
 .header .nav-links{
     list-style: none;
-    width: max-content;
 }
 
 .header .nav-links li{
@@ -82,20 +71,4 @@ body{
     background-color: #e2f1f8;
     color: #ffbc0e;
     transform: scale(1.1);
-}
-
-.nav-toggle{
-    background: none;
-    border: none;
-    font-size: 30pxs;
-    padding: 0 20px;
-    line-height: 60px;
-    display: none;
-}
-
-@media (max-whidth: 768px){
-    body{
-        background-color: white;
-    }
-
 }
