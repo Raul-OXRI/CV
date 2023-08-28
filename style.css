@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: #6C4C4C;
+    margin: 0;
+    padding: 0;
 }
 
 .nav{
@@ -17,16 +18,12 @@ body{
     margin: 0;
 }
 .header{
-    background-color: #1b3039;
+    background-color: #d64810;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 85px;
     padding: 5px 10%;
-    /*/position: fixed;
-    /top: 0;
-    left: 0;
-    width: 100%;*/
 }
 
 .header .logo{
@@ -62,9 +59,12 @@ body{
     color: #eceff1;
     text-decoration: none;
 }
-
+/*AOXDML
+    wiztln
+    419171614
+*/
 .header .nav-links li a:hover{
-    color: #ffbc0e;
+    color: #ffffff;
 }
 
 .header .btn button{
@@ -101,8 +101,8 @@ body{
 }
 
 footer {
-    background-color: #1b3039;
-    color: white;
+    background-color: #d64810;
+    
     text-align: center;
     padding: 10px;
     position: absolute;
@@ -110,14 +110,35 @@ footer {
     width: 100%;
 }
 
-.icon-container {
-    color: whitesmoke;
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 .conteiner{
-    color: #e2f1f8;
+    color: #fffefe;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     
+}
+
+.izquierdo{
+    background: rgb(20, 20, 20);
+    height: 100vh;
+    width: 50%;
+
+}
+
+.derecho{
+    background: url(./Filme/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#pantalla_div{
+    display: flex;
 }
